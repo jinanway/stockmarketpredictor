@@ -4,6 +4,3 @@ streamlit
 yfinance
 pandas-datareader
 prophet
-xgboost
-sklearn
-plotly
