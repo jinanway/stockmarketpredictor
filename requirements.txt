@@ -5,3 +5,5 @@ yfinance
 pandas-datareader
 prophet
 scikit-learn
+xgboost
+plotly
