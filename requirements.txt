@@ -5,3 +5,7 @@ yfinance
 pandas-datareader
 prophet
 xgboost
+sklearn.metrics
+sklearn
+plotly.graph_objects
+plotly
