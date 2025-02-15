@@ -16,7 +16,7 @@ def get_stock_data(ticker_symbol):
 def train_and_predict(df):
     predictors = ["Close", "Volume", "Open", "High", "Low"]
     
-    model = XGBRegressor(n_estimators=500, learning_rate=0.009, max_depth=5, random_state=1)
+    model = XGBRegressor(n_estimators=100, learning_rate=0.009, max_depth=5, random_state=1)
     train = df.iloc[:-1]  # Use all data except the last row
     test = df.iloc[-1:]  # Last row for tomorrow's prediction
     
