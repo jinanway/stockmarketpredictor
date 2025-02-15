@@ -1,6 +1,9 @@
-streamlit
 pandas
+plotly
+streamlit
 yfinance
-xgboost
+pandas-datareader
+prophet
 scikit-learn
+xgboost
 plotly
